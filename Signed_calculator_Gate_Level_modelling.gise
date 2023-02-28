@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Signed_calculator_Gate_Level_modelling.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Decremental_4_bit_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Decremental_4_bit_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Universal_shifter_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Universal_shifter_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_3_8_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_3_8_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="divider_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="divider_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="eight_bit_multi_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="eight_bit_multi_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="four_bit_adder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_adder_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="four_bit_comparator_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_comparator_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_subtractor_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="four_bit_subtractor_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="four_bit_subtractor_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_subtractor_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="four_bit_twos_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_twos_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="full_adder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="full_adder_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="full_subtractor_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="full_subtractor_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="half_adder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="half_adder_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="half_subtractor_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="half_subtractor_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="logical_and_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="logical_and_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="logical_or_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="logical_or_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux_2_1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_2_1_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux_4_1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_4_1_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="signed_cal_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="signed_cal_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="signed_cal_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="signed_calculator_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="signed_calculator_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="signed_calculator_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="signed_calculator_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="twos_9_bit_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="twos_9_bit_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="twos_complement_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="twos_complement_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1675099360" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1675099360">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1677610394" xil_pn:in_ck="-2301414664349781105" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1677610394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Decremental_4_bit.v"/>
+      <outfile xil_pn:name="Universal_shifter.v"/>
+      <outfile xil_pn:name="decoder_3_8.v"/>
+      <outfile xil_pn:name="divider.v"/>
+      <outfile xil_pn:name="eight_bit_multiplier.v"/>
+      <outfile xil_pn:name="four_bit_adder.v"/>
+      <outfile xil_pn:name="four_bit_comparator.v"/>
+      <outfile xil_pn:name="four_bit_subtractor.v"/>
+      <outfile xil_pn:name="four_bit_twos.v"/>
+      <outfile xil_pn:name="full_adder.v"/>
+      <outfile xil_pn:name="full_subtractor.v"/>
+      <outfile xil_pn:name="half_adder.v"/>
+      <outfile xil_pn:name="half_subtractor.v"/>
+      <outfile xil_pn:name="logical_and.v"/>
+      <outfile xil_pn:name="logical_or.v"/>
+      <outfile xil_pn:name="mux_2_1.v"/>
+      <outfile xil_pn:name="mux_4_1.v"/>
+      <outfile xil_pn:name="signed_calculator.v"/>
+      <outfile xil_pn:name="twos_9_bit.v"/>
+      <outfile xil_pn:name="twos_complement.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1675619039" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4901107507464011815" xil_pn:start_ts="1675619039">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1675619039" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6866896868329609097" xil_pn:start_ts="1675619039">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1675333019" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6828303061885993734" xil_pn:start_ts="1675333019">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1677610394" xil_pn:in_ck="-2301414664349781105" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1677610394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Decremental_4_bit.v"/>
+      <outfile xil_pn:name="Universal_shifter.v"/>
+      <outfile xil_pn:name="decoder_3_8.v"/>
+      <outfile xil_pn:name="divider.v"/>
+      <outfile xil_pn:name="eight_bit_multiplier.v"/>
+      <outfile xil_pn:name="four_bit_adder.v"/>
+      <outfile xil_pn:name="four_bit_comparator.v"/>
+      <outfile xil_pn:name="four_bit_subtractor.v"/>
+      <outfile xil_pn:name="four_bit_twos.v"/>
+      <outfile xil_pn:name="full_adder.v"/>
+      <outfile xil_pn:name="full_subtractor.v"/>
+      <outfile xil_pn:name="half_adder.v"/>
+      <outfile xil_pn:name="half_subtractor.v"/>
+      <outfile xil_pn:name="logical_and.v"/>
+      <outfile xil_pn:name="logical_or.v"/>
+      <outfile xil_pn:name="mux_2_1.v"/>
+      <outfile xil_pn:name="mux_4_1.v"/>
+      <outfile xil_pn:name="signed_calculator.v"/>
+      <outfile xil_pn:name="twos_9_bit.v"/>
+      <outfile xil_pn:name="twos_complement.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1677610396" xil_pn:in_ck="-2301414664349781105" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7620229451628808200" xil_pn:start_ts="1677610394">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1677609689" xil_pn:in_ck="-6208121277314757003" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1563273278555092789" xil_pn:start_ts="1677609689">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="signed_cal_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

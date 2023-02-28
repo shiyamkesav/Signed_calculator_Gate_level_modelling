@@ -1,0 +1,61 @@
+ISim log file
+Running: C:\ISE_projects\Signed_calculator_Gate_Level_modelling\signed_cal_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_cal_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" Line 26.  For instance signed_cal/t1/, width 6 of formal port s is not equal to width 7 of actual signal w1.
+WARNING: File "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" Line 26.  For instance signed_cal/t2/, width 6 of formal port s is not equal to width 7 of actual signal w2.
+WARNING: File "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" Line 26.  For instance signed_cal/t3/, width 6 of formal port a is not equal to width 7 of actual signal w1.
+WARNING: File "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" Line 26.  For instance signed_cal/t3/, width 6 of formal port b is not equal to width 7 of actual signal w2.
+WARNING: File "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" Line 26.  For instance signed_cal/t4/, width 6 of formal port a is not equal to width 7 of actual signal w1.
+WARNING: File "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" Line 26.  For instance signed_cal/t4/, width 6 of formal port b is not equal to width 7 of actual signal w2.
+WARNING:  For instance s1/h1/, width 1 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance t7/s3/, width 1 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance t7/s4/, width 1 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance t7/s5/, width 1 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance t7/m1/, width 1 of formal port I0 is not equal to width 32 of actual constant.
+WARNING:  For instance t7/m2/, width 1 of formal port I0 is not equal to width 32 of actual constant.
+WARNING:  For instance t19/s0/, width 1 of formal port b is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /signed_cal/rst 0 -radix bin
+# run 1.00us
+# isim force add /signed_cal/a 7 -radix unsigned
+# isim force add /signed_cal/b 9 -radix unsigned
+# isim force add /signed_cal/b 9 -radix unsigned
+# isim force add /signed_cal/Sign 0 -radix unsigned
+# isim force add /signed_cal/mode 0 -radix unsigned
+# isim force add /signed_cal/shift_value 0 -radix unsigned
+# isim force add /signed_cal/shift_number 0 -radix bin
+# isim force add /signed_cal/RorL 0 -radix bin
+# run 1.00us
+# isim force add /signed_cal/rst 1 -radix bin
+# run 1.00us
+# isim force add /signed_cal/Sign 1 -radix unsigned
+# run 1.00us
+# isim force add /signed_cal/Sign 2 -radix unsigned
+# run 1.00us
+# isim force add /signed_cal/Sign 3 -radix unsigned
+# run 1.00us
+# isim force add /signed_cal/mode 1 -radix unsigned
+# run 1.00us
+# isim force add /signed_cal/Sign 2 -radix unsigned
+# run 1.00us
+# isim force add /signed_cal/mode 3 -radix unsigned
+# run 1.00us
+# isim force add /signed_cal/mode 2 -radix unsigned
+# run 1.00us
+# isim force add /signed_cal/mode 5 -radix unsigned
+# run 1.00us
+# isim force add /signed_cal/mode 6 -radix unsigned
+# run 1.00us
+# isim force add /signed_cal/mode 7 -radix unsigned
+# run 1.00us
+# isim force add /signed_cal/mode 4 -radix unsigned
+# run 1.00us

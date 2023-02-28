@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_cal_isim_beh.exe" -prj "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_cal_beh.prj" "work.signed_cal" "work.glbl" 

@@ -1,0 +1,4 @@
+verilog work "half_subtractor.v"
+verilog work "full_subtractor.v"
+verilog work "four_bit_subtractor.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

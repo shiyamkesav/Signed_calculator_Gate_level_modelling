@@ -1,0 +1,70 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_cal_isim_beh.exe -prj C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_cal_beh.prj work.signed_cal work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/mux_2_1.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/half_subtractor.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/half_adder.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/mux_4_1.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/full_subtractor.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/full_adder.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/four_bit_twos.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/Universal_shifter.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/twos_complement.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/twos_9_bit.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/logical_or.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/logical_and.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/four_bit_subtractor.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/four_bit_comparator.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/four_bit_adder.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/eight_bit_multiplier.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/divider.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/Decremental_4_bit.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/decoder_3_8.v" into library work
+Analyzing Verilog file "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:604 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/four_bit_adder.v" Line 18: Module instantiation should have an instance name
+WARNING:HDLCompiler:188 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/twos_complement.v" Line 22: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:188 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/eight_bit_multiplier.v" Line 56: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:188 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/four_bit_comparator.v" Line 23: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:188 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/four_bit_comparator.v" Line 24: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" Line 34: Size mismatch in connection of port <s>. Formal port size is 6-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" Line 35: Size mismatch in connection of port <s>. Formal port size is 6-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" Line 36: Size mismatch in connection of port <a>. Formal port size is 6-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_calculator.v" Line 37: Size mismatch in connection of port <a>. Formal port size is 6-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/divider.v" Line 23: Size mismatch in connection of port <b>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/divider.v" Line 24: Size mismatch in connection of port <b>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/divider.v" Line 25: Size mismatch in connection of port <b>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/divider.v" Line 28: Size mismatch in connection of port <I0>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/four_bit_twos.v" Line 27: Size mismatch in connection of port <b>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/divider.v" Line 27: Size mismatch in connection of port <I0>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/ISE_projects/Signed_calculator_Gate_Level_modelling/Decremental_4_bit.v" Line 27: Size mismatch in connection of port <b>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module decoder_3_8
+Compiling module half_adder
+Compiling module twos_complement
+Compiling module full_adder
+Compiling module four_bit_adder
+Compiling module half_subtractor
+Compiling module full_subtractor
+Compiling module four_bit_subtractor
+Compiling module four_bit_multi
+Compiling module twos_9_bit
+Compiling module four_bit_twos
+Compiling module mux_2_1
+Compiling module divider
+Compiling module decremental_4_bit
+Compiling module four_bit_comparator
+Compiling module logical_and
+Compiling module logical_or
+Compiling module mux_4_1
+Compiling module Universal_shifter
+Compiling module signed_cal
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 21 Verilog Units
+Built simulation executable C:/ISE_projects/Signed_calculator_Gate_Level_modelling/signed_cal_isim_beh.exe
+Fuse Memory Usage: 28784 KB
+Fuse CPU Usage: 374 ms
